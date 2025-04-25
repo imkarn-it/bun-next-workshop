@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-stone-700">
+    <div class="w-screen h-screen flex flex-col justify-center items-center">
+        <div class="flex flex-col items-center justify-center min-h-screen gap-y-14">
+            <div class="relative">
+                <div class="bg-red-300 p-6 rounded text-3xl">Parant Ele M1</div>
+                <div>
+                    <div class="bg-green-300 absolute -left-10 bottom-14 p-2 rounded w-[80px]"> Child Ele </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-blue-400 p-6 rounded text-3xl cursor-pointer">Mail Box</div>
+                <div>
+                    <div class="bg-white px-2 absolute -right-2 -top-3 rounded-full"> 
+                        1
+                    </div>
+                </div>
+            </div>
+
+            <nav class="bg-black text-white fixed top-0 left-0 
+            right-0 h-14 flex justify-between items-center px-6">
+                <button class="bg-amber-100 text-black p-2 rounded">Icon</button>
+                <h1>Header</h1>
+                <button class="bg-amber-100 text-black p-2 rounded">User</button>
+            </nav>
+
+            <aside class="bg-indigo-300 text-black fixed top-0 left-0 p-4 bottom-0 w-24 mt-14">
+                <div>Sidebar</div>
+            </aside>
+
+            <footer class="fixed bottom-0 inset-x-0 ml-24 p-4 bg-gray-300 text-black">
+                <div>Footer</div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+</html>
